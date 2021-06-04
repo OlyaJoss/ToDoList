@@ -79,31 +79,31 @@
 .to-do-list {
     position: relative;
     min-height: 40px;
-    padding-bottom: 59px;
 }
 
 .to-do-list__wrapper {
-    position: absolute;
     width: 288px;
     min-height: 40px;
     margin-left: 3px;
+    margin-bottom: 18px;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 10px;
     overflow: hidden;
 }
 
+/* .selected {
+    background-color: #C4C4C4;
+} */
+
 .to-do-list__item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 20px;
+    height: 38px;
+    cursor: move;
+    transition: background-color 0.5s;
 }
-
-/* .to-do-list__item:focus,
-.to-do-list__item:active {
-    background-color: #FFDC40;
-} */
 
 .to-do-list__item:hover {
     background-color: #FFDC40;
@@ -136,7 +136,10 @@
 }
 
 .to-do-list__text-input {
+    font-size: 14px;
+    line-height: 16px;
     width: 190px;
+    min-height: 30px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
