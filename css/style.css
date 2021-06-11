@@ -123,6 +123,12 @@
     stroke: #FFFFFF;
 }
 
+.placeholder {
+    background-color: #edf2f7;
+    border: 2px dashed #cbd5e0;
+    margin-bottom: 1rem;
+}
+
 .to-do-list__dots-icon {
     margin-top: 14px;
     margin-bottom: 14px;
