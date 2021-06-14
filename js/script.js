@@ -88,7 +88,7 @@ const isAbove = function (nodeA, nodeB) {
 };
 
 const mouseDownHandler = function (event) {
-    if (event.target.classList.contains('to-do-list__item')) {
+    if (event.target.classList.contains('to-do-list__item') || event.target.closest('.to-do-list__drag-button')) {
         draggingEle = event.target.closest('article');
         const rect = draggingEle.getBoundingClientRect();
 
@@ -122,7 +122,7 @@ const mouseMoveHandler = function (event) {
     // placeholder
     // nextEle
 
-    const prevEle = draggingEle.previousElementSiblibg;
+    const prevEle = draggingEle.previousElementSibling;
     const nextEle = placeholder.nextElementSibling;
 
     // to the top

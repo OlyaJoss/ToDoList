@@ -129,7 +129,7 @@
     margin-bottom: 1rem;
 }
 
-.to-do-list__dots-icon {
+.to-do-list__drag-button {
     margin-top: 14px;
     margin-bottom: 14px;
     margin-left: 15px;
@@ -172,6 +172,7 @@
     width: 150px;
     height: 42px;
     margin: 0 auto;
+    margin-bottom: 20px;
     padding-left: 27px;
     background: #833AE0;
     border-radius: 71px;
