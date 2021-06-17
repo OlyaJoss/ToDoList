@@ -7,7 +7,7 @@
 }
 
 .header__name {
-    font-family: Roboto;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 900;
@@ -92,10 +92,6 @@
     overflow: hidden;
 }
 
-/* .selected {
-    background-color: #C4C4C4;
-} */
-
 .to-do-list__item {
     display: flex;
     flex-direction: row;
@@ -159,7 +155,7 @@
 }
 
 .button-section__add-button {
-    font-family: Roboto;
+    font-family: "Roboto", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
